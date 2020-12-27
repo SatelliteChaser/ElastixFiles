@@ -1,6 +1,6 @@
 # ElastixFiles
 
-Files for aligning RGB images of the moon to an L(or something else) frame. To use them, copy the files to where elastix is installed.
+Files for aligning RGB images of the moon to an L(or something else) frame. To use them, copy the files to where [elastix](https://github.com/SuperElastix/elastix/releases) is installed.
 
 The bat file can be used to automatically align all three frames to the reference, just edit the paths and create the destination folders, then doubleclick on the bat file. The resulting files will  be located in the subfolders proc/R, proc/G, proc/B. Result.0.png will be the image where only translation and rotation is performed, result.1.png will also have non rigid transformation (pixels will be moved without restriction).
 
